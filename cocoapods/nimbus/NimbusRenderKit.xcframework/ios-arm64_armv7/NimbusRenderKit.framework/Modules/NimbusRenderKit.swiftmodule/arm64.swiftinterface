@@ -1,0 +1,163 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target arm64-apple-ios10 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NimbusRenderKit
+import CoreGraphics
+@_exported import NimbusRenderKit
+import Swift
+import WebKit
+final public class NimbusVisibilityManager {
+  weak final public var delegate: NimbusRenderKit.VisibilityManagerDelegate?
+  final public var exposure: NimbusRenderKit.NimbusViewExposure {
+    get
+    set
+  }
+  public init(for view: (UIKit.UIView & NimbusRenderKit.VisibilityTrackable))
+  @objc deinit
+}
+extension NimbusVisibilityManager : NimbusRenderKit.VisibilityManager {
+  final public func startListeningForVisibilityChanges()
+  final public func updateVisibility()
+  @objc final public func appDidBecomeActive()
+  @objc final public func appWillResignActive()
+  final public func destroy()
+}
+public protocol VisibilityManagerDelegate : AnyObject {
+  func didRegisterImpressionForView()
+  func didChangeVisibility(visible: Swift.Bool)
+  func didChangeExposure(exposure: NimbusRenderKit.NimbusViewExposure)
+}
+public protocol VisibilityManager : AnyObject {
+  var exposure: NimbusRenderKit.NimbusViewExposure { get }
+  var delegate: NimbusRenderKit.VisibilityManagerDelegate? { get set }
+  func startListeningForVisibilityChanges()
+  func updateVisibility()
+  func appDidBecomeActive()
+  func appWillResignActive()
+  func destroy()
+}
+public protocol NimbusAdViewabilityTrackable : AnyObject {
+  var staticTrackers: Swift.String { get }
+  func activate() throws
+  func createAdSession(auctionType: NimbusCoreKit.NimbusAuctionType, view: UIKit.UIView) throws
+  func addFriendlyObstructions()
+  func startAdSession()
+  func injectOMScript(into markup: Swift.String) throws -> Swift.String
+  func createAdEvents() throws
+  func adEventsImpressionOccurred(auctionType: NimbusCoreKit.NimbusAuctionType) throws
+  func createVideoEvents() throws
+  func loadVideoEventsWithVastProps()
+  func logError(auctionType: NimbusCoreKit.NimbusAuctionType, message: Swift.String)
+  func videoEventStart(duration: CoreGraphics.CGFloat, volume: CoreGraphics.CGFloat)
+  func videoEventFirstQuartile()
+  func videoEventMidpoint()
+  func videoEventThirdQuartile()
+  func videoEventComplete()
+  func videoEventPause()
+  func videoEventResume()
+  func videoEventClicked()
+  func videoEventVolumeChange(volume: CoreGraphics.CGFloat)
+  func clearVideoEvents()
+  func clearAdEvents()
+  func finishAndClearAdSession()
+}
+public protocol AdVisibilityDelegate : AnyObject {
+  func didChangeVisibility(controller: NimbusCoreKit.AdController, isVisible: Swift.Bool, hasTriggeredImpression: Swift.Bool)
+}
+@objc @_hasMissingDesignatedInitializers final public class NimbusAdView : UIKit.UIView {
+  @objc override final public var intrinsicContentSize: CoreGraphics.CGSize {
+    @objc get
+  }
+  weak final public var delegate: NimbusCoreKit.AdControllerDelegate?
+  weak final public var visibilityDelegate: NimbusRenderKit.AdVisibilityDelegate?
+  final public var volume: Swift.Int {
+    get
+    set
+  }
+  public init(lockOrientation: UIKit.UIDeviceOrientation? = nil, adPresentingViewController: UIKit.UIViewController?, viewabilityTrackable: NimbusRenderKit.NimbusAdViewabilityTrackable? = nil)
+  @objc deinit
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+}
+extension NimbusAdView {
+  final public func render(ad: NimbusCoreKit.NimbusAd, companionAd: NimbusCoreKit.NimbusCompanionAd? = nil)
+}
+extension NimbusAdView : NimbusCoreKit.AdController {
+  final public var adDuration: CoreGraphics.CGFloat {
+    get
+  }
+  final public var adView: UIKit.UIView? {
+    get
+  }
+  final public func start()
+  final public func stop()
+  final public func destroy()
+}
+extension NimbusAdView : NimbusRenderKit.VisibilityTrackable {
+  final public var isViewVisible: Swift.Bool {
+    get
+  }
+  final public var currentViewExposure: NimbusRenderKit.NimbusViewExposure {
+    get
+  }
+}
+extension NimbusAdView : NimbusCoreKit.AdControllerDelegate {
+  final public func didReceiveNimbusEvent(controller: NimbusCoreKit.AdController, event: NimbusCoreKit.NimbusEvent)
+  final public func didReceiveNimbusError(controller: NimbusCoreKit.AdController, error: NimbusCoreKit.NimbusError)
+}
+public struct NimbusViewExposure : Swift.Equatable {
+  public static var zero: NimbusRenderKit.NimbusViewExposure {
+    get
+  }
+  public let percentage: Swift.Int
+  public let visibleRectangle: CoreGraphics.CGRect
+  public init(percentage: Swift.Int, visibleRectangle: CoreGraphics.CGRect)
+  public static func == (a: NimbusRenderKit.NimbusViewExposure, b: NimbusRenderKit.NimbusViewExposure) -> Swift.Bool
+}
+extension NimbusViewExposure : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum NimbusRenderError : NimbusCoreKit.NimbusError {
+  case alreadyDestroyed
+  case adRenderingFailed(message: Swift.String?)
+  case adUnsupportedAuctionType(auctionType: NimbusCoreKit.NimbusAuctionType, network: Swift.String)
+  case viewability(message: Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public enum NimbusAdViewabilityError : Foundation.LocalizedError {
+  case activationFailed
+  case adSessionInitFailed
+  case videoEventsInitFailed
+  case omScriptInjectionFailed
+  case adEventsInitFailed
+  case impressionTrackingFailed
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: NimbusRenderKit.NimbusAdViewabilityError, b: NimbusRenderKit.NimbusAdViewabilityError) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+extension Int {
+  public var nimbusVolume: Swift.Int {
+    get
+  }
+  public var nimbusVolumePercentage: CoreGraphics.CGFloat {
+    get
+  }
+}
+extension CGFloat {
+  public var nimbusVolume: Swift.Int {
+    get
+  }
+}
+public protocol VisibilityTrackable {
+  var isViewVisible: Swift.Bool { get }
+  var currentViewExposure: NimbusRenderKit.NimbusViewExposure { get }
+}
+extension NimbusRenderKit.NimbusAdViewabilityError : Swift.Equatable {}
+extension NimbusRenderKit.NimbusAdViewabilityError : Swift.Hashable {}

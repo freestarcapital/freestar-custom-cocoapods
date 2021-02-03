@@ -1,0 +1,19 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NimbusRenderVideoKit
+import GoogleInteractiveMediaAds
+@_exported import NimbusRenderVideoKit
+import Swift
+import WebKit
+open class NimbusVideoSettingsProvider {
+  public init()
+  public func adsLoader() -> GoogleInteractiveMediaAds.IMAAdsLoader
+  public func adsRenderingSettings() -> GoogleInteractiveMediaAds.IMAAdsRenderingSettings
+  @objc deinit
+}
+final public class NimbusVideoAdRenderer : NimbusCoreKit.AdRenderer {
+  final public var videoAdSettingsProvider: NimbusRenderVideoKit.NimbusVideoSettingsProvider
+  public init()
+  final public func render(ad: NimbusCoreKit.NimbusAd, companionAd: NimbusCoreKit.NimbusCompanionAd?, container: UIKit.UIView, adPresentingViewController: UIKit.UIViewController?, delegate: NimbusCoreKit.AdControllerDelegate) -> NimbusCoreKit.AdController
+  @objc deinit
+}

@@ -1,0 +1,13 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NimbusRenderStaticKit
+import AdSupport
+@_exported import NimbusRenderStaticKit
+import StoreKit
+import Swift
+import WebKit
+final public class NimbusStaticAdRenderer : NimbusCoreKit.AdRenderer {
+  public init()
+  final public func render(ad: NimbusCoreKit.NimbusAd, companionAd: NimbusCoreKit.NimbusCompanionAd?, container: UIKit.UIView, adPresentingViewController: UIKit.UIViewController?, delegate: NimbusCoreKit.AdControllerDelegate) -> NimbusCoreKit.AdController
+  @objc deinit
+}

@@ -1,0 +1,1 @@
+"use strict";window.nimbusMuting||(window.nimbusMuting=function(n){try{document.querySelectorAll("video, audio").forEach(function(t){t.defaultMuted=n,t.muted=n})}catch(t){}},document.addEventListener("DOMContentLoaded",function(){window.nimbusMuting(!0),new MutationObserver(function(){window.nimbusMuting(!0)}).observe(document.body,{attributes:!1,childList:!0,subtree:!0})}));

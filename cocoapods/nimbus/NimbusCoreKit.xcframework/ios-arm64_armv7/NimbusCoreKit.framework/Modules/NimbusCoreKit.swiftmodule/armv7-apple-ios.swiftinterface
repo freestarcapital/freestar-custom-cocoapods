@@ -1,0 +1,235 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NimbusCoreKit
+import AdSupport
+import CoreTelephony
+import Foundation
+@_exported import NimbusCoreKit
+import Swift
+import SystemConfiguration
+import WebKit
+public struct NimbusRendererType : Swift.Hashable {
+  public let network: Swift.String?
+  public let type: NimbusCoreKit.NimbusAuctionType?
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: NimbusCoreKit.NimbusRendererType, b: NimbusCoreKit.NimbusRendererType) -> Swift.Bool
+}
+extension NimbusRendererType {
+  public static func forNetwork(_ network: Swift.String) -> NimbusCoreKit.NimbusRendererType
+  public static func forAuctionType(_ type: NimbusCoreKit.NimbusAuctionType) -> NimbusCoreKit.NimbusRendererType
+  public static func forNetworkAndAuction(network: Swift.String, type: NimbusCoreKit.NimbusAuctionType) -> NimbusCoreKit.NimbusRendererType
+}
+@available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
+public let ReachabilityChangedNotification: Foundation.NSNotification.Name
+public enum NimbusConnectionType : Swift.Int, Swift.Codable {
+  case unknown
+  case ethernet
+  case wifi
+  case cellularUnknown
+  case cellular2G
+  case cellular3G
+  case cellular4G
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct NimbusAdTrackers : Swift.Codable, Swift.Equatable {
+  public let impressionTrackers: [Foundation.URL]?
+  public let clickTrackers: [Foundation.URL]?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public static func == (a: NimbusCoreKit.NimbusAdTrackers, b: NimbusCoreKit.NimbusAdTrackers) -> Swift.Bool
+}
+public struct NimbusAd : Swift.Codable, Swift.Equatable {
+  public let auctionType: NimbusCoreKit.NimbusAuctionType
+  public let bidRaw: Swift.Double
+  public let bidInCents: Swift.Int
+  public let contentType: Swift.String
+  public let auctionId: Swift.String
+  public let network: Swift.String
+  public let markup: Swift.String
+  public let isInterstitial: Swift.Bool
+  public let placementId: Swift.String?
+  public let adDimensions: NimbusCoreKit.NimbusAdDimensions?
+  public let trackers: NimbusCoreKit.NimbusAdTrackers?
+  public let isMraid: Swift.Bool
+  public let extensions: NimbusCoreKit.NimbusAdExtensions?
+  public init(auctionType: NimbusCoreKit.NimbusAuctionType, bidRaw: Swift.Double, bidInCents: Swift.Int, contentType: Swift.String, auctionId: Swift.String, network: Swift.String, markup: Swift.String, isInterstitial: Swift.Bool, placementId: Swift.String?, adDimensions: NimbusCoreKit.NimbusAdDimensions?, trackers: NimbusCoreKit.NimbusAdTrackers?, isMraid: Swift.Bool, extensions: NimbusCoreKit.NimbusAdExtensions?)
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public static func == (a: NimbusCoreKit.NimbusAd, b: NimbusCoreKit.NimbusAd) -> Swift.Bool
+}
+public struct NimbusAdExtensions : Swift.Codable, Swift.Equatable {
+  public let skAdNetwork: NimbusCoreKit.NimbusAdSkAdNetwork?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public static func == (a: NimbusCoreKit.NimbusAdExtensions, b: NimbusCoreKit.NimbusAdExtensions) -> Swift.Bool
+}
+public struct NimbusAdSkAdNetwork : Swift.Codable, Swift.Equatable {
+  public let advertisedAppStoreItemID: Swift.String?
+  public let sourceAppStoreItemID: Swift.String?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public static func == (a: NimbusCoreKit.NimbusAdSkAdNetwork, b: NimbusCoreKit.NimbusAdSkAdNetwork) -> Swift.Bool
+}
+public protocol AdController : AnyObject {
+  var delegate: NimbusCoreKit.AdControllerDelegate? { get set }
+  var volume: Swift.Int { get set }
+  var adView: UIKit.UIView? { get }
+  var adDuration: CoreGraphics.CGFloat { get }
+  func start()
+  func stop()
+  func destroy()
+}
+extension ASIdentifierManager {
+  public func nimbusAdId() -> Swift.String
+}
+@_hasMissingDesignatedInitializers final public class NimbusLogger : NimbusCoreKit.Logger {
+  final public var selectedLogLevel: NimbusCoreKit.NimbusLogLevel
+  final public func log(_ message: Swift.String, level: NimbusCoreKit.NimbusLogLevel = .debug)
+  @objc deinit
+}
+public protocol NimbusDynamicPriceMapping {
+  func getKeywords(ad: NimbusCoreKit.NimbusAd) -> Swift.String?
+}
+public struct NimbusAdDimensions : Swift.Codable, Swift.Equatable {
+  public let width: Swift.Int
+  public let height: Swift.Int
+  public init(width: Swift.Int, height: Swift.Int)
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public static func == (a: NimbusCoreKit.NimbusAdDimensions, b: NimbusCoreKit.NimbusAdDimensions) -> Swift.Bool
+}
+public enum NimbusCompanionAdRenderMode : Swift.Int, Swift.Codable {
+  case concurrent
+  case endCard
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol NimbusError : Foundation.LocalizedError {
+}
+public enum NimbusLogLevel : Swift.Int, Swift.CustomStringConvertible, Swift.Comparable {
+  case off, error, debug, info
+  public var description: Swift.String {
+    get
+  }
+  public static func < (lhs: NimbusCoreKit.NimbusLogLevel, rhs: NimbusCoreKit.NimbusLogLevel) -> Swift.Bool
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol AdRenderer : AnyObject {
+  init()
+  func render(ad: NimbusCoreKit.NimbusAd, companionAd: NimbusCoreKit.NimbusCompanionAd?, container: UIKit.UIView, adPresentingViewController: UIKit.UIViewController?, delegate: NimbusCoreKit.AdControllerDelegate) -> NimbusCoreKit.AdController
+}
+public protocol AdControllerDelegate : AnyObject {
+  func didReceiveNimbusEvent(controller: NimbusCoreKit.AdController, event: NimbusCoreKit.NimbusEvent)
+  func didReceiveNimbusError(controller: NimbusCoreKit.AdController, error: NimbusCoreKit.NimbusError)
+}
+public struct NimbusCompanionAd {
+  public let width: Swift.Int
+  public let height: Swift.Int
+  public let renderMode: NimbusCoreKit.NimbusCompanionAdRenderMode
+  public init(width: Swift.Int, height: Swift.Int, renderMode: NimbusCoreKit.NimbusCompanionAdRenderMode)
+}
+public enum NimbusAuctionType : Swift.String, Swift.Hashable, Swift.Codable {
+  case `static`
+  case video
+  case native
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol Logger {
+  var selectedLogLevel: NimbusCoreKit.NimbusLogLevel { get set }
+  func log(_ message: Swift.String, level: NimbusCoreKit.NimbusLogLevel)
+}
+public enum NimbusCoreError : NimbusCoreKit.NimbusError {
+  case sdkNotInitialized
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: NimbusCoreKit.NimbusCoreError, b: NimbusCoreKit.NimbusCoreError) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+@_hasMissingDesignatedInitializers public class Nimbus {
+  public static let shared: NimbusCoreKit.Nimbus
+  public var sessionId: Swift.String
+  public var coppa: Swift.Bool?
+  public var testMode: Swift.Bool
+  public var logger: NimbusCoreKit.Logger
+  public var logLevel: NimbusCoreKit.NimbusLogLevel {
+    get
+    set
+  }
+  public var renderers: [NimbusCoreKit.NimbusRendererType : NimbusCoreKit.AdRenderer] {
+    get
+    set
+  }
+  public var baseUrl: Foundation.URL? {
+    get
+  }
+  public var apiKey: Swift.String? {
+    get
+  }
+  public var vendorId: Swift.String? {
+    get
+  }
+  public var userAgentString: Swift.String {
+    get
+  }
+  public var httpHeaders: [Swift.AnyHashable : Any]? {
+    get
+  }
+  @objc deinit
+  public func initialize(publisher: Swift.String, apiKey: Swift.String)
+}
+extension Nimbus {
+  public var connectionType: NimbusCoreKit.NimbusConnectionType {
+    get
+  }
+}
+public enum NimbusEvent : Swift.RawRepresentable, Swift.Equatable {
+  public typealias RawValue = Swift.String
+  case loaded
+  case loadedCompanionAd(width: Swift.Int, height: Swift.Int)
+  case impression
+  case resumed
+  case paused
+  case clicked
+  case firstQuartile
+  case midpoint
+  case thirdQuartile
+  case completed
+  case destroyed
+  public init?(rawValue: NimbusCoreKit.NimbusEvent.RawValue)
+  public var rawValue: NimbusCoreKit.NimbusEvent.RawValue {
+    get
+  }
+}
+extension NimbusCoreKit.NimbusConnectionType : Swift.Equatable {}
+extension NimbusCoreKit.NimbusConnectionType : Swift.Hashable {}
+extension NimbusCoreKit.NimbusConnectionType : Swift.RawRepresentable {}
+extension NimbusCoreKit.NimbusCompanionAdRenderMode : Swift.Equatable {}
+extension NimbusCoreKit.NimbusCompanionAdRenderMode : Swift.Hashable {}
+extension NimbusCoreKit.NimbusCompanionAdRenderMode : Swift.RawRepresentable {}
+extension NimbusCoreKit.NimbusLogLevel : Swift.Hashable {}
+extension NimbusCoreKit.NimbusLogLevel : Swift.RawRepresentable {}
+extension NimbusCoreKit.NimbusAuctionType : Swift.RawRepresentable {}
+extension NimbusCoreKit.NimbusCoreError : Swift.Equatable {}
+extension NimbusCoreKit.NimbusCoreError : Swift.Hashable {}
