@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 	]
 
 	spec.source            = {
-			:git => "https://gitlab.com/freestar/freestar-ios-binaries.git",
+			:git => "https://github.com/freestarcapital/freestar-custom-cocoapods.git",
 			:tag => 'v1.7.0'
 	}
 
