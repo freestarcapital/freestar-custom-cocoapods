@@ -11,6 +11,10 @@ Pod::Spec.new do |spec|
 	spec.homepage            = 'http://www.freestar.com'
 	spec.summary             = 'Helper Pod containing the Nimbus SDK in support of the Freestar Ads system'
 	spec.platform            = :ios, '10.0'
+	
+	spec.dependency 'FBAudienceNetwork', '~> 6.2'
+	spec.static_framework = true
+	spec.swift_version = '5.3'
 
 	spec.vendored_frameworks = [
 		'cocoapods/nimbus/NimbusKit.xcframework', 
