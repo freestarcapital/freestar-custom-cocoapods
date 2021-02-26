@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |spec|
 	spec.name                = 'Freestar-Nimbus-SDK'
-	spec.version             = '1.7.2'
+	spec.version             = '1.8.2'
 	spec.author              = 'Freestar'
 	spec.license             = { :type => 'Apache2.0', :file => 'LICENCE.md' }
 	spec.homepage            = 'http://www.freestar.com'
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
 	
 	spec.source            = {
 			:git => "https://github.com/freestarcapital/freestar-custom-cocoapods.git",
-			:tag => 'v1.7.2'
+			:tag => 'v1.8.2'
 	}
 
 	spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
