@@ -73,6 +73,7 @@ public protocol AdVisibilityDelegate : AnyObject {
     get
     set
   }
+  weak final public var adPresentingViewController: UIKit.UIViewController?
   public init(lockOrientation: UIKit.UIDeviceOrientation? = nil, adPresentingViewController: UIKit.UIViewController?, viewabilityTrackable: NimbusRenderKit.NimbusAdViewabilityTrackable? = nil)
   @objc deinit
   @objc override dynamic public init(frame: CoreGraphics.CGRect)

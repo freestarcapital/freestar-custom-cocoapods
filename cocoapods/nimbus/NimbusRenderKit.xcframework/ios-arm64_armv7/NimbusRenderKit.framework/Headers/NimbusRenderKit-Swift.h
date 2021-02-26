@@ -212,7 +212,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 
 /// Nimbus ad view that can render video and static ads
-/// :nodoc:
 SWIFT_CLASS("_TtC15NimbusRenderKit12NimbusAdView")
 @interface NimbusAdView : UIView
 /// :nodoc:
@@ -447,7 +446,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 
 /// Nimbus ad view that can render video and static ads
-/// :nodoc:
 SWIFT_CLASS("_TtC15NimbusRenderKit12NimbusAdView")
 @interface NimbusAdView : UIView
 /// :nodoc:

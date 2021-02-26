@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Tbs0Lmvuj0N3JZ8Y7q2ih2O/6V0=
+		2FU+2bj3Km06DqzrcX9zZCQJajI=
 		</data>
 		<key>Modules/NimbusRequestKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8wCiq8JOMv3JCFosBsTE8/PUQyo=
+		qLPUv2ucw7FEMwApowqEfjRNk6w=
 		</data>
 		<key>Modules/NimbusRequestKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/NimbusRequestKit.swiftmodule/i386.swiftdoc</key>
 		<data>
-		8wCiq8JOMv3JCFosBsTE8/PUQyo=
+		qLPUv2ucw7FEMwApowqEfjRNk6w=
 		</data>
 		<key>Modules/NimbusRequestKit.swiftmodule/i386.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/NimbusRequestKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		AS9iwxLFmd0P8zcWGZNGIhVjQeQ=
+		3EI2TZoQhT8iVckJM+8f1CQAdSE=
 		</data>
 		<key>Modules/NimbusRequestKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NimbusRequestKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		AS9iwxLFmd0P8zcWGZNGIhVjQeQ=
+		3EI2TZoQhT8iVckJM+8f1CQAdSE=
 		</data>
 		<key>Modules/NimbusRequestKit.swiftmodule/x86_64.swiftinterface</key>
 		<data>
@@ -97,11 +97,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8wCiq8JOMv3JCFosBsTE8/PUQyo=
+			qLPUv2ucw7FEMwApowqEfjRNk6w=
 			</data>
 			<key>hash2</key>
 			<data>
-			OG1Dw6LW5/BYUFCrFGqdXzJ3tFLAl25NZGGLm5Y9SFU=
+			j719Du7xKrTLhkqR/kXEzqX4Oc2bu+PySqGxAbSpbkc=
 			</data>
 		</dict>
 		<key>Modules/NimbusRequestKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
@@ -130,11 +130,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8wCiq8JOMv3JCFosBsTE8/PUQyo=
+			qLPUv2ucw7FEMwApowqEfjRNk6w=
 			</data>
 			<key>hash2</key>
 			<data>
-			OG1Dw6LW5/BYUFCrFGqdXzJ3tFLAl25NZGGLm5Y9SFU=
+			j719Du7xKrTLhkqR/kXEzqX4Oc2bu+PySqGxAbSpbkc=
 			</data>
 		</dict>
 		<key>Modules/NimbusRequestKit.swiftmodule/i386.swiftinterface</key>
@@ -163,11 +163,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AS9iwxLFmd0P8zcWGZNGIhVjQeQ=
+			3EI2TZoQhT8iVckJM+8f1CQAdSE=
 			</data>
 			<key>hash2</key>
 			<data>
-			HClujEG6tf4nKFR3iPMOCYzMpoNlOtBoGIZU7kXdZ6Q=
+			TeqxolVTOC+Xq6USGGjuQEB4wYUKB1dTC6+qzr7LbMo=
 			</data>
 		</dict>
 		<key>Modules/NimbusRequestKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -196,11 +196,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AS9iwxLFmd0P8zcWGZNGIhVjQeQ=
+			3EI2TZoQhT8iVckJM+8f1CQAdSE=
 			</data>
 			<key>hash2</key>
 			<data>
-			HClujEG6tf4nKFR3iPMOCYzMpoNlOtBoGIZU7kXdZ6Q=
+			TeqxolVTOC+Xq6USGGjuQEB4wYUKB1dTC6+qzr7LbMo=
 			</data>
 		</dict>
 		<key>Modules/NimbusRequestKit.swiftmodule/x86_64.swiftinterface</key>

@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NID89KPRFL4OUrbl9gDFcKNwV+A=
+		9/+xDteZ9KFgQ0fZPDabi9ZMA7o=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7QybhMmxaZPeJsvHewMe/7i1THk=
+		C9yB6qPXp5ghGfhyXjSwc0ZcWDI=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		geXj9K6oFBFDXjOw1nEFml7ngLQ=
+		HvttDSuqD1PiXNXpe176qYf9ENE=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xBfLq+uTSTWX3gbBo1w5R87STSw=
+		OvYQ2UTKrW+QsqLFJTFts1yH/Sk=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386.swiftdoc</key>
 		<data>
-		7QybhMmxaZPeJsvHewMe/7i1THk=
+		C9yB6qPXp5ghGfhyXjSwc0ZcWDI=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386.swiftinterface</key>
 		<data>
-		geXj9K6oFBFDXjOw1nEFml7ngLQ=
+		HvttDSuqD1PiXNXpe176qYf9ENE=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386.swiftmodule</key>
 		<data>
-		xBfLq+uTSTWX3gbBo1w5R87STSw=
+		OvYQ2UTKrW+QsqLFJTFts1yH/Sk=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		yB3pIPRB9Ty0FX5RvHId4AOLv+8=
+		1ZTtezL2EUbRBSPWx2qoAwhr774=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FOFsPd92iz1v1i0qHKR0uL8ntqY=
+		hexo0xthWhQFoVJGE5GJpYg1xy8=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4RDtox8CnKeKcTfuBKbv2sChtLY=
+		2y8fpv+3zP30fuXWbZpxp6271Sc=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		yB3pIPRB9Ty0FX5RvHId4AOLv+8=
+		1ZTtezL2EUbRBSPWx2qoAwhr774=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		FOFsPd92iz1v1i0qHKR0uL8ntqY=
+		hexo0xthWhQFoVJGE5GJpYg1xy8=
 		</data>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		4RDtox8CnKeKcTfuBKbv2sChtLY=
+		2y8fpv+3zP30fuXWbZpxp6271Sc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,132 +97,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7QybhMmxaZPeJsvHewMe/7i1THk=
+			C9yB6qPXp5ghGfhyXjSwc0ZcWDI=
 			</data>
 			<key>hash2</key>
 			<data>
-			PrKOYEsI/aGIE7rgPSTqfvldEN3ZXyYFJvYQACANNTo=
+			s2Kd0QZjsETzYle3cbXnU+QHx5nUfqeUKEdtwH5t494=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			geXj9K6oFBFDXjOw1nEFml7ngLQ=
+			HvttDSuqD1PiXNXpe176qYf9ENE=
 			</data>
 			<key>hash2</key>
 			<data>
-			LTq/b2qidbLGFjqk2iEWfD6YrqG9EWsB7W9++d1VIr4=
+			+nFH6uUUXETwH5wwLcsZDWA1w7873VHMQA7W4YWDPBU=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xBfLq+uTSTWX3gbBo1w5R87STSw=
+			OvYQ2UTKrW+QsqLFJTFts1yH/Sk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z1zvUN0a28BDi376YYcOqgKc5OGVL34HW2gtyEHDsWw=
+			hyAYHGAMxfvswEqH70BIuc63sAxA++3gm2TaTYEtXj8=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7QybhMmxaZPeJsvHewMe/7i1THk=
+			C9yB6qPXp5ghGfhyXjSwc0ZcWDI=
 			</data>
 			<key>hash2</key>
 			<data>
-			PrKOYEsI/aGIE7rgPSTqfvldEN3ZXyYFJvYQACANNTo=
+			s2Kd0QZjsETzYle3cbXnU+QHx5nUfqeUKEdtwH5t494=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			geXj9K6oFBFDXjOw1nEFml7ngLQ=
+			HvttDSuqD1PiXNXpe176qYf9ENE=
 			</data>
 			<key>hash2</key>
 			<data>
-			LTq/b2qidbLGFjqk2iEWfD6YrqG9EWsB7W9++d1VIr4=
+			+nFH6uUUXETwH5wwLcsZDWA1w7873VHMQA7W4YWDPBU=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xBfLq+uTSTWX3gbBo1w5R87STSw=
+			OvYQ2UTKrW+QsqLFJTFts1yH/Sk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z1zvUN0a28BDi376YYcOqgKc5OGVL34HW2gtyEHDsWw=
+			hyAYHGAMxfvswEqH70BIuc63sAxA++3gm2TaTYEtXj8=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yB3pIPRB9Ty0FX5RvHId4AOLv+8=
+			1ZTtezL2EUbRBSPWx2qoAwhr774=
 			</data>
 			<key>hash2</key>
 			<data>
-			oAlzd5dK7AxB9dfhOlMctnN8RaEkLwd7HvulkGT79vA=
+			koBK7Zy7rXiN1ekIktiKqUCLdACLMGzzwX8ThJHo8Fg=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FOFsPd92iz1v1i0qHKR0uL8ntqY=
+			hexo0xthWhQFoVJGE5GJpYg1xy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SdWKqqZsH+mgW2Fq8EZu6SfkvfxtoFPPEXEEPOeiyUE=
+			/tMrFmRXOX+BfGDNdZ20LC4aS+t1a8fN5S8sVKT5Cjs=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4RDtox8CnKeKcTfuBKbv2sChtLY=
+			2y8fpv+3zP30fuXWbZpxp6271Sc=
 			</data>
 			<key>hash2</key>
 			<data>
-			vRVC1V+3hOFcgu1o2d5Z3LTqezDEdUF8wFFAvWlndS8=
+			XHC4bfPzSeKoWcijxC35gBlO8de8pesl2Y3xCZF2ISs=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yB3pIPRB9Ty0FX5RvHId4AOLv+8=
+			1ZTtezL2EUbRBSPWx2qoAwhr774=
 			</data>
 			<key>hash2</key>
 			<data>
-			oAlzd5dK7AxB9dfhOlMctnN8RaEkLwd7HvulkGT79vA=
+			koBK7Zy7rXiN1ekIktiKqUCLdACLMGzzwX8ThJHo8Fg=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FOFsPd92iz1v1i0qHKR0uL8ntqY=
+			hexo0xthWhQFoVJGE5GJpYg1xy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SdWKqqZsH+mgW2Fq8EZu6SfkvfxtoFPPEXEEPOeiyUE=
+			/tMrFmRXOX+BfGDNdZ20LC4aS+t1a8fN5S8sVKT5Cjs=
 			</data>
 		</dict>
 		<key>Modules/NimbusCoreKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4RDtox8CnKeKcTfuBKbv2sChtLY=
+			2y8fpv+3zP30fuXWbZpxp6271Sc=
 			</data>
 			<key>hash2</key>
 			<data>
-			vRVC1V+3hOFcgu1o2d5Z3LTqezDEdUF8wFFAvWlndS8=
+			XHC4bfPzSeKoWcijxC35gBlO8de8pesl2Y3xCZF2ISs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

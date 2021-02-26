@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LEv0KVkq5swWKK+ENWedtXWeobQ=
+		BweyY/2MGR+iKReB8NlcJIuwEcE=
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FZ5gnGSQb6mHDwms0OiaI3as7Vc=
+		sEmzL0TSAjO0idFHTOFHiw8ARCY=
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		q8FJg9D9LuPhEb3FRummBuDw13g=
+		ZS8ohyEe43vYEkeWppKLXZ7l0AQ=
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/i386.swiftdoc</key>
 		<data>
-		FZ5gnGSQb6mHDwms0OiaI3as7Vc=
+		sEmzL0TSAjO0idFHTOFHiw8ARCY=
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/i386.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/i386.swiftmodule</key>
 		<data>
-		q8FJg9D9LuPhEb3FRummBuDw13g=
+		ZS8ohyEe43vYEkeWppKLXZ7l0AQ=
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+T9g8hsmAFLgNZVxp8VR4G69uDk=
+		EoJIo6FEizSjBLgFA7KkGbsAdWA=
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		y4r0l1kt84tFWQWuJPV/xmODf/Q=
+		j9Va2U8W6IFDn1i6Q3JSCFRgwbE=
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		+T9g8hsmAFLgNZVxp8VR4G69uDk=
+		EoJIo6FEizSjBLgFA7KkGbsAdWA=
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/x86_64.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		y4r0l1kt84tFWQWuJPV/xmODf/Q=
+		j9Va2U8W6IFDn1i6Q3JSCFRgwbE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,11 +97,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FZ5gnGSQb6mHDwms0OiaI3as7Vc=
+			sEmzL0TSAjO0idFHTOFHiw8ARCY=
 			</data>
 			<key>hash2</key>
 			<data>
-			S9M4XRJvajcvrUQf9qlDUbkZln8iLO076ou0Dj4JO1Q=
+			yFVIKeazDimwoCuwoO6+zGbyHFGIWyUd+t5GCOex1QA=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
@@ -119,22 +119,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q8FJg9D9LuPhEb3FRummBuDw13g=
+			ZS8ohyEe43vYEkeWppKLXZ7l0AQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gp9nhqhkLtYUQZ2Uxw/KPEk/gmyNynrXuR/uuK4P6ms=
+			Or8xVPRYy3Tu0sQkva2EzqJxcHE8193eXk7a0HZgfUg=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FZ5gnGSQb6mHDwms0OiaI3as7Vc=
+			sEmzL0TSAjO0idFHTOFHiw8ARCY=
 			</data>
 			<key>hash2</key>
 			<data>
-			S9M4XRJvajcvrUQf9qlDUbkZln8iLO076ou0Dj4JO1Q=
+			yFVIKeazDimwoCuwoO6+zGbyHFGIWyUd+t5GCOex1QA=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/i386.swiftinterface</key>
@@ -152,22 +152,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q8FJg9D9LuPhEb3FRummBuDw13g=
+			ZS8ohyEe43vYEkeWppKLXZ7l0AQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gp9nhqhkLtYUQZ2Uxw/KPEk/gmyNynrXuR/uuK4P6ms=
+			Or8xVPRYy3Tu0sQkva2EzqJxcHE8193eXk7a0HZgfUg=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+T9g8hsmAFLgNZVxp8VR4G69uDk=
+			EoJIo6FEizSjBLgFA7KkGbsAdWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6SmmfrB1H8LdeMMABpUhT9Az/t81MaMYuzGheIjyPC8=
+			5T/4Eck1B0ene22HoEjN3HMjs3Zu4TSH2nJku/yIOek=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -185,22 +185,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y4r0l1kt84tFWQWuJPV/xmODf/Q=
+			j9Va2U8W6IFDn1i6Q3JSCFRgwbE=
 			</data>
 			<key>hash2</key>
 			<data>
-			qIsnLwU+N3d9Eg2Dpp0rrvTgT9gk9MnqN5cPqB37Usg=
+			Z1ukWZIzLR5g+bKcXBhf2HupjPzYSjr86bkzEI295T8=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+T9g8hsmAFLgNZVxp8VR4G69uDk=
+			EoJIo6FEizSjBLgFA7KkGbsAdWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6SmmfrB1H8LdeMMABpUhT9Az/t81MaMYuzGheIjyPC8=
+			5T/4Eck1B0ene22HoEjN3HMjs3Zu4TSH2nJku/yIOek=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderVideoKit.swiftmodule/x86_64.swiftinterface</key>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y4r0l1kt84tFWQWuJPV/xmODf/Q=
+			j9Va2U8W6IFDn1i6Q3JSCFRgwbE=
 			</data>
 			<key>hash2</key>
 			<data>
-			qIsnLwU+N3d9Eg2Dpp0rrvTgT9gk9MnqN5cPqB37Usg=
+			Z1ukWZIzLR5g+bKcXBhf2HupjPzYSjr86bkzEI295T8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

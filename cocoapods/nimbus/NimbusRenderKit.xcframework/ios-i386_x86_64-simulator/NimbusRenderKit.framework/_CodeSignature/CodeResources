@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NimbusRenderKit-Swift.h</key>
 		<data>
-		5GD62Rd4JaN87krVeAHgr7ZH3s0=
+		t9cGm+KGb+Ap6b5svCc57mv8e+s=
 		</data>
 		<key>Headers/NimbusRenderKit.h</key>
 		<data>
@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		R1WCGJZUbNpaHn6R9fy9LNAWRe0=
+		OMpbFo10p44sIxvBH7ny+pICZTk=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2quy4N/H7xtZDN/DxjanQ1iqwdE=
+		QPYd7Rkr1yvTp3ESek2ooo5mswA=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		sRPHrZ9mrYsdUXvX170bGrRiNZI=
+		TIThkLp/q8WmZ5bMsbBKwoRjf0k=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ePWmr2fcF+d4wM/At5mH+qopjVw=
+		jXmCbQ2kirm5iBkXjsDegcKKNXQ=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386.swiftdoc</key>
 		<data>
-		2quy4N/H7xtZDN/DxjanQ1iqwdE=
+		QPYd7Rkr1yvTp3ESek2ooo5mswA=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386.swiftinterface</key>
 		<data>
-		sRPHrZ9mrYsdUXvX170bGrRiNZI=
+		TIThkLp/q8WmZ5bMsbBKwoRjf0k=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386.swiftmodule</key>
 		<data>
-		ePWmr2fcF+d4wM/At5mH+qopjVw=
+		jXmCbQ2kirm5iBkXjsDegcKKNXQ=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		d8Fc3s2432yz8bML84qKAGS+DRg=
+		FhLpfA419SzRwOTJDofWVejJ1XE=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		v/AnmKd0hSoaJ3n0gUXmmmcVKN0=
+		OrCC//rR/h94sMdDDueeemuI7Io=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ggatpZPwikR/ysL3TZy4+lzBcsk=
+		JpRNoR6eG+EXI4YeZ4Op1gOk0g8=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		d8Fc3s2432yz8bML84qKAGS+DRg=
+		FhLpfA419SzRwOTJDofWVejJ1XE=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		v/AnmKd0hSoaJ3n0gUXmmmcVKN0=
+		OrCC//rR/h94sMdDDueeemuI7Io=
 		</data>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		ggatpZPwikR/ysL3TZy4+lzBcsk=
+		JpRNoR6eG+EXI4YeZ4Op1gOk0g8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,11 +75,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5GD62Rd4JaN87krVeAHgr7ZH3s0=
+			t9cGm+KGb+Ap6b5svCc57mv8e+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			NvT+9qFSQ078WnMzkzPH8jVT7/WHqfxLAw1o9pkiOqI=
+			dkOfoMsDT9lihGWMUvHckkDtyHH2EFCesIL4CIXKPDw=
 			</data>
 		</dict>
 		<key>Headers/NimbusRenderKit.h</key>
@@ -97,132 +97,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2quy4N/H7xtZDN/DxjanQ1iqwdE=
+			QPYd7Rkr1yvTp3ESek2ooo5mswA=
 			</data>
 			<key>hash2</key>
 			<data>
-			itNPiPdsiZf9NhI7VmBzRszeMDzBr8xncNPDiIaeJWY=
+			A8GTbAxbg61ly3DHxJeLz7YnPXUTPVGYpKPGX7//Njc=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sRPHrZ9mrYsdUXvX170bGrRiNZI=
+			TIThkLp/q8WmZ5bMsbBKwoRjf0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			H1C8ZiizzDoOiJrmUTXTal2bybGmv+6TeuSxZtgrksM=
+			P/UFUJUD9gghefmWFtfbzOCLF833qqnSWodGZLvUtRw=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ePWmr2fcF+d4wM/At5mH+qopjVw=
+			jXmCbQ2kirm5iBkXjsDegcKKNXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			lh1FoqdLPYwA8tLT6U9jgha2tXVqubBGbjEZYrmBDvM=
+			9FEuXH+VhRhs1ifwwW6ei3n9e0Idl8brGbE6Lz7fT/I=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2quy4N/H7xtZDN/DxjanQ1iqwdE=
+			QPYd7Rkr1yvTp3ESek2ooo5mswA=
 			</data>
 			<key>hash2</key>
 			<data>
-			itNPiPdsiZf9NhI7VmBzRszeMDzBr8xncNPDiIaeJWY=
+			A8GTbAxbg61ly3DHxJeLz7YnPXUTPVGYpKPGX7//Njc=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sRPHrZ9mrYsdUXvX170bGrRiNZI=
+			TIThkLp/q8WmZ5bMsbBKwoRjf0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			H1C8ZiizzDoOiJrmUTXTal2bybGmv+6TeuSxZtgrksM=
+			P/UFUJUD9gghefmWFtfbzOCLF833qqnSWodGZLvUtRw=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ePWmr2fcF+d4wM/At5mH+qopjVw=
+			jXmCbQ2kirm5iBkXjsDegcKKNXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			lh1FoqdLPYwA8tLT6U9jgha2tXVqubBGbjEZYrmBDvM=
+			9FEuXH+VhRhs1ifwwW6ei3n9e0Idl8brGbE6Lz7fT/I=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d8Fc3s2432yz8bML84qKAGS+DRg=
+			FhLpfA419SzRwOTJDofWVejJ1XE=
 			</data>
 			<key>hash2</key>
 			<data>
-			cGNUH9pS8y6r4iOCpAce3PeSQkzWWmna/Nnpoa4gkmk=
+			jQzU0onjO09BmXfywo5Rrle9X7pAs8xhv8eFWZNjMfg=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v/AnmKd0hSoaJ3n0gUXmmmcVKN0=
+			OrCC//rR/h94sMdDDueeemuI7Io=
 			</data>
 			<key>hash2</key>
 			<data>
-			HLZtlu5p82Ju5QcLk4Ziu2XlMFG87UAoyAgJlEMqEp0=
+			16jUaVd0PUCho+699ffD+iNGB7KO63pgktbRAT8xfLw=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ggatpZPwikR/ysL3TZy4+lzBcsk=
+			JpRNoR6eG+EXI4YeZ4Op1gOk0g8=
 			</data>
 			<key>hash2</key>
 			<data>
-			CjWMrgnXUMSyklxszgFhqRgCDNRktzy4fc5sBffbPoY=
+			rj2kP486eDC1qS7p6wYld6LY8jEKN54/RTPr97EuhAQ=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d8Fc3s2432yz8bML84qKAGS+DRg=
+			FhLpfA419SzRwOTJDofWVejJ1XE=
 			</data>
 			<key>hash2</key>
 			<data>
-			cGNUH9pS8y6r4iOCpAce3PeSQkzWWmna/Nnpoa4gkmk=
+			jQzU0onjO09BmXfywo5Rrle9X7pAs8xhv8eFWZNjMfg=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v/AnmKd0hSoaJ3n0gUXmmmcVKN0=
+			OrCC//rR/h94sMdDDueeemuI7Io=
 			</data>
 			<key>hash2</key>
 			<data>
-			HLZtlu5p82Ju5QcLk4Ziu2XlMFG87UAoyAgJlEMqEp0=
+			16jUaVd0PUCho+699ffD+iNGB7KO63pgktbRAT8xfLw=
 			</data>
 		</dict>
 		<key>Modules/NimbusRenderKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ggatpZPwikR/ysL3TZy4+lzBcsk=
+			JpRNoR6eG+EXI4YeZ4Op1gOk0g8=
 			</data>
 			<key>hash2</key>
 			<data>
-			CjWMrgnXUMSyklxszgFhqRgCDNRktzy4fc5sBffbPoY=
+			rj2kP486eDC1qS7p6wYld6LY8jEKN54/RTPr97EuhAQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

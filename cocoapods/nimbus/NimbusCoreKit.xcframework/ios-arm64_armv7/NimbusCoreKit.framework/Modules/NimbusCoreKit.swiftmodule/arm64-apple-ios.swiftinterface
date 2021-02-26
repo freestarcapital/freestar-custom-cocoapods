@@ -181,6 +181,7 @@ public enum NimbusCoreError : NimbusCoreKit.NimbusError {
     get
     set
   }
+  public var usPrivacyString: Swift.String?
   public var baseUrl: Foundation.URL? {
     get
   }
